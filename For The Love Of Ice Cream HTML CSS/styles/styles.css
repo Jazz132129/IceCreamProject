@@ -93,7 +93,7 @@ margin-right: 20px;
   color: white;
   text-shadow: 1px 1px 2px #0db80c, 0 0 1em #0920dc, 0 0 0.3em rgb(192 5 167)
 }
-* {box-sizing:border-box}
+
 
 .gallery-container{
   display: flex;
@@ -105,16 +105,43 @@ height: 250px;
 margin: 20px;
 }
 
+.button{
+  background-color: rgb(255, 255, 255);
+  border: rgb(255, 255, 255);
+  border-radius: 20%;
+  font-size: 25px;
+  color: rgb(98, 0, 255);
+  
+}
+
+.button:hover{
+
+}
+
 .icecreamquiz{
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   height: 250px;
 }
-  
+
+.order-now{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 20pc;
+}
+
+.wow{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  height: 250px;
+}  
+
 html {
   background-image: linear-gradient(
-    rgb(125, 20, 124),
+    rgb(117, 13, 117),
     rgb(21, 91, 148),
     rgb(11, 97, 16)
   );
