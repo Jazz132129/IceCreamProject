@@ -17,22 +17,21 @@
         <img class="logo" src="./assets/icecreamTruckLogo.png" alt="Ice Cream Truck Logo" />
       </span>
       <nav class="page-header-menu-container">
+        <div class="dropdown">
+          <button>
         <ul class="menu">
           <li class="menu-item">
-            <a href="The Ice Cream Shop's Flavors" class="menu-link">The Ice Cream Shop's Flavors</a>
+              <a href="The Ice Cream Shop's Flavors" class="menu-link">The Ice Cream Shop's Flavors</a>
           </li>
-          <ul class="d-none">
-            <li class="menu-item">
-              <a href="#" class="menu-link">Limited Edition</a>
-            </li>
-            <li class="menu-item">
-              <a href="#" class="menu-link">New Flavors</a>
-            </li>
-            <li class="menu-item">
-              <a href="#" class="menu-link">All Flovors</a>
-            </li>
+          </button>
+          <div class="dropdown-menu-item">
+              <a href="#">Limited Edition</a>
+               <a href="#">New Flavors</a>
+               <a href="#">All Flavors</a>
+          </div>
           </ul>
         </ul>
+        </div>
         <ul class="links">
           <li class="menu-item">
             <a href="#Order Now" class="menu-link">Order Now</a>
@@ -126,8 +125,10 @@
             MATCHED ICE CREAM.
             </p>
           </h2>
+          <p>
           With our Ice Cream quiz you can discover limitless sweets, treats,
           goodies, & flavors.
+          </p>
           <img class="icecreamquiz" src="./assets/IcecreamQuiz.png" alt="Ice cream quiz" />
           <button class="button">Quiz Time</button>
         </section>
@@ -152,14 +153,18 @@
         </h2>
         <blockquote>
           <h3>Dont Just take our word for it, read our reviews.</h3>
-          When I want a sweet treat but I dont want to leave my bed this is my
+          <br>
+          <p>When I want a sweet treat but I dont want to leave my bed this is my
           go to. I get my ice cream and lay in bed with a good movie. I couldnt
           ask for more. - <em>Jamie L</em>
+          </p>
         </blockquote>
+        <br>
         <blockquote>
-          They are here for the ice cream lovers, they have a wide selection to
+          <p>They are here for the ice cream lovers, they have a wide selection to
           satisfy even the pickiest of icecream lovers. You never know what new
           flavor you will discover and fall head over heels for! - <em>Unique R</em>
+          </p>
         </blockquote>
         <button class="button">More Reviews</button>
       </section>
@@ -174,30 +179,46 @@
       <span>
         <img class="logo" src="./assets/icecreamTruckLogo.png" alt="Ice Cream Truck Logo" />
       </span>
-      &copy; For The Love Of Ice Cream 2022
-      <p>25 International Dr, Orlando, Fl 32700</p>
-      <ul class="Social">
-        <li class="instagram">
-          <a href="#">
-            <img src="./assets/instagram-brands.svg" alt="instagram" />
-          </a>
-        </li>
-        <li class="Facebook">
-          <a href="#">
-            <img src="./assets/facebook-square-brands.svg" alt="facebook" />
-          </a>
-        </li>
-        <li class="Twitter">
-          <a href="#">
-            <img src="./assets/twitter-square-brands.svg" alt="twitter" />
-          </a>
-        </li>
-        <li class="Email">
-          <a href="#">
-            <img src="./assets/envelope-regular.svg" alt="envelope" />
-          </a>
-        </li>
-      </ul>
+      <nav class="page-header-menu-container">
+        <ul class="Social">
+            <i class="Social"></i>
+            <li class="instagram">
+              <i class="instagram"></i>
+                <img
+                  class="icon"
+                  src="./assets/instagram-brands.svg"
+                  alt="instagram"
+                />
+            </li>
+            <li class="Facebook">
+              <i class="Facebook"></i>
+                <img
+                  class="icon"
+                  src="./assets/facebook-square-brands.svg"
+                  alt="facebook"
+                />
+            </li>
+            <li class="Twitter">
+              <i class="Twitter"></i>
+                <img
+                  class="icon"
+                  src="./assets/twitter-square-brands.svg"
+                  alt="twitter"
+                />
+            </li>
+            <li class="Email">
+              <i class="Email"></i>
+                <img
+                  class="icon"
+                  src="./assets/envelope-regular.svg"
+                  alt="envelope"
+                />
+            </li>
+            </li>
+          </ul>
+    </nav>
+    &copy; For The Love Of Ice Cream 2022
+    <p>25 International Dr, Orlando, Fl 32700</p>
     </footer>
   </body>
 </html>

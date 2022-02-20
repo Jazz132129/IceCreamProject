@@ -7,10 +7,6 @@ body{
   padding: 0;
 }
 
-/* Generic utilities*/
-.d-none{
-  display: none;
-}
 
 /* Header area */
 .page-header{
@@ -52,6 +48,37 @@ body{
  font-size: 15px;
  font-weight: 1000;
 }
+
+/* Dropdown */
+.dropdown {
+  display: inline-block;
+  position: relative;
+  color: white;
+  
+}
+
+.dropdown > button{
+  background: none;
+  border: 100px;
+  margin: 10px;
+  color: white;
+}
+
+.dropdown-menu-item{
+  display: none;
+  position: absolute;
+  width: 100%;
+  overflow: auto;
+  box-shadow: 0px 8px 16px 0px rgb(0,0,0, 0.2);
+  
+}
+
+.dropdown:hover .dropdown-menu-item{
+  display: block;
+}
+
+
+/* Social Icons */
 
 .Social{
   display: flex;
@@ -100,17 +127,19 @@ margin-right: 20px;
   flex-wrap: wrap;
   justify-content: center;
 }
+
 .gallery-container > img{
 height: 250px;
 margin: 20px;
+border-color: rgb(19, 84, 154);
+border-bottom-width: 500px;
+color: white;
 }
 
 .button{
-  background-color: rgb(255, 255, 255);
-  border: rgb(255, 255, 255);
-  border-radius: 20%;
+  background: none;
   font-size: 25px;
-  color: rgb(98, 0, 255);
+  color: rgb(255, 255, 255);
   
 }
 
@@ -123,6 +152,7 @@ margin: 20px;
   flex-wrap: wrap;
   justify-content: center;
   height: 250px;
+  color: white;
 }
 
 .order-now{
@@ -141,7 +171,8 @@ margin: 20px;
 
 html {
   background-image: linear-gradient(
-    rgb(117, 13, 117),
-    rgb(21, 91, 148),
-    rgb(11, 97, 16)
+    rgb(160, 19, 122),
+    rgb(104, 4, 150),
+    rgb(19, 84, 154)
+  
   );
