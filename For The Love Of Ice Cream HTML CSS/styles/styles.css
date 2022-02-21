@@ -49,33 +49,7 @@ body{
  font-weight: 1000;
 }
 
-/* Dropdown */
-.dropdown {
-  display: inline-block;
-  position: relative;
-  color: white;
-  
-}
 
-.dropdown > button{
-  background: none;
-  border: 100px;
-  margin: 10px;
-  color: white;
-}
-
-.dropdown-menu-item{
-  display: none;
-  position: absolute;
-  width: 100%;
-  overflow: auto;
-  box-shadow: 0px 8px 16px 0px rgb(0,0,0, 0.2);
-  
-}
-
-.dropdown:hover .dropdown-menu-item{
-  display: block;
-}
 
 
 /* Social Icons */
@@ -145,6 +119,12 @@ color: white;
 
 .button:hover{
 
+}
+
+.Featured-Favorites{
+  color: white;
+  box-sizing: border-box;
+  margin: 30px;
 }
 
 .icecreamquiz{
