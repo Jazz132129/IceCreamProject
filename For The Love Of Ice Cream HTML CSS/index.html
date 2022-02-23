@@ -107,21 +107,42 @@
     <img src="./assets/IcecreamSunday.png" alt="Ice cream sunday" style="width:300px">
     <img src="./assets/IcecreamCake.png" alt="Ice cream cake" style="width:300px">    
   </section>
-        <section id="Quiz Time">
+        <section id="mailing-list">
           <h2>
-            <p>
-            DO YOU LOVE ICE CREAM JUST LIKE US? TAKE A QUIZ TO FIND YOUR PERFECT
-            MATCHED ICE CREAM.
-            </p>
+            <p> Join Our Mailing List</p>
           </h2>
-          <p>
-          With our Ice Cream quiz you can discover limitless sweets, treats,
-          goodies, & flavors.
-          </p>
+          <p> Do you want more from For The Love Of Ice Cream? Good because we want to give you more!
+            Join us for updates on all our newest treats, oh the special offers we give are just as sweet as our treats, 
+            and for your birthday we want to celabrate you by giving you a suprise!</p>
           <img class="icecreamquiz" src="./assets/IcecreamQuiz.png" alt="Ice cream quiz" />
-          <button class="button">Quiz Time</button>
+          <div class="mailing-list-container">
+            <form action="action_page.php">
+          
+              <label for="fname">First Name</label>
+              <input type="text" id="fname" name="firstname" placeholder="Your name..">
+          
+              <label for="lname">Last Name</label>
+              <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+          
+              <label for="date of birth">Date Of Birth</label>
+              <select id="date of birth" name="date of birth">
+                <option value="australia">Australia</option>
+                <option value="canada">Canada</option>
+                <option value="usa">USA</option>
+              </select>
+              
+
+
+              
+              <label for="subject">Subject</label>
+              <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+          
+              <input type="submit" value="Submit">
+          
+            </form>
+          </div>
         </section>
-        <section id="Order Now">
+        <section id="order-now">
           Sweets! Treats! Goodies! & More!
           <h2>ORDER NOW FOR DELIVERY IN MINUTES</h2>
             <p>By now I'm sure we've <strong>WOWED YOU</strong> with all of our
@@ -164,9 +185,10 @@
         </section>
       </section>
       </main>
-      <footer>
+      <footer class="page-footer">
       <span>
         <img class="logo" src="./assets/icecreamTruckLogo.png" alt="Ice Cream Truck Logo" />
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3510.0738157822543!2d-81.48212288511255!3d28.38683838251533!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88e77e2d9afd3d77%3A0xc57ea53b1e126359!2sInternational%20Dr%2C%20Florida!5e0!3m2!1sen!2sus!4v1645572726764!5m2!1sen!2sus" width="300" height="200" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
       </span>
       <nav class="page-header-menu-container">
         <ul class="Social">
@@ -206,8 +228,8 @@
             </li>
           </ul>
     </nav>
-    &copy; For The Love Of Ice Cream 2022
-    <p>25 International Dr, Orlando, Fl 32700</p>
+    <p class="footer-text">&copy; For The Love Of Ice Cream 2022
+    25 International Dr, Orlando, Fl 32700</p>
     </footer>
   </body>
 </html>
