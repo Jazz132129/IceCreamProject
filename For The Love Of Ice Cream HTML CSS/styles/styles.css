@@ -142,10 +142,17 @@ color: white;
 
 }
 
+.mailing-list > img{
+  display: flex;
+  justify-content: center;
+  height: 240px;
+  margin-bottom: 50px;
+}
 
 
 .mailing-list-container{
   border: 3px solid rgb(255, 3, 188);
+  margin: 20px;
 }
 
 input {
@@ -170,7 +177,17 @@ select {
   font-weight: bolder;
 }
 
+.order-now{
+  color: white;
+  box-sizing: border-box;
+  margin: 30px;
+}
 
+.reviews{
+  color: white;
+  box-sizing: border-box;
+  margin: 30px;
+}
   
 /* Footer */
 
