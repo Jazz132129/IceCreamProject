@@ -133,7 +133,7 @@ color: white;
 }
 
 
-.icecreamquiz{
+.mailing-list{
 height: 300px;
 margin: 20px;
 border-color: rgb(19, 84, 154);
@@ -142,12 +142,7 @@ color: white;
 
 }
 
-.mailing-list{
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  width: 600px;
-}
+
 
 .mailing-list-container{
   border: 3px solid rgb(255, 3, 188);
