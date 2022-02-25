@@ -3,7 +3,7 @@ body{
 }
 /* Reset */
 *{
-  margin: 0px;
+  margin: 1px;
   padding: 0px;
 }
 
@@ -14,6 +14,7 @@ body{
   justify-content: space-between;
   margin-top: 50px;
   margin-bottom: 25px;
+  border-bottom: 3px solid rgb(255, 255, 255);
 
 }
 .logo{
@@ -131,12 +132,14 @@ color: white;
   margin: 30px;
 }
 
+
 .icecreamquiz{
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  height: 300px;
-  color: white;
+height: 300px;
+margin: 20px;
+border-color: rgb(19, 84, 154);
+border-bottom-width: 500px;
+color: white;
+
 }
 
 .mailing-list{
@@ -147,7 +150,7 @@ color: white;
 }
 
 .mailing-list-container{
-
+  border: 3px solid rgb(255, 3, 188);
 }
 
 input {
@@ -172,16 +175,12 @@ select {
   font-weight: bolder;
 }
 
-.wow{
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  height: 250px;
-}  
+
+  
 /* Footer */
 
 .page-footer{
-  margin: 42px 344px 12px;
+  margin: 42px 349px 12px;
 }
 
 .footer-text{
