@@ -79,6 +79,7 @@
         <div class="main-banner"/>
         <h1 class="main-banner-title">I Scream, You Scream, We All Scream For Ice Cream.</h1>
       </header>
+  <body>
       <section class="Featured-Favorites" id="Featured-Favorites">
         <h2>
           <p>
@@ -104,16 +105,14 @@
     <img src="./assets/IcecreamCake.png" alt="Ice cream cake" style="width:300px">    
   </section>
         <section class="mailing-list" id="mailing-list">
-          <h2>
-            <p> Join Our Mailing List</p>
-          </h2>
+          <h2>Join Our Mailing List</h2>
           <p> Do you want more from For The Love Of Ice Cream? Good because we want 
             to give you more! Join us for updates on all our newest treats, 
             and the special offers we give are just as sweet as our treats. 
             Dont forget your birthday, because we sure wont! Get a free treat of your choice.
           </p>
-          <img src="./assets/mailing-list.png" alt="mailing-list"> 
         </section>
+        <section>
           <div class="mailing-list-container">
             <form action="action_page.php">
               <label for="fname">First Name</label>
@@ -122,7 +121,7 @@
               <label for="lname">Last Name</label>
               <input type="text" id="lname" name="lastname" placeholder="Last Name">
           
-              <label for="date of birth">Date Of Birth</label>
+              <label for="DOB">Date Of Birth</label>
               <input type="date"> 
 
               <label for="flavors">Pick Your Favorite Flavor</label>
@@ -166,68 +165,70 @@
               <option value="marshmallow-creme">Marshmallow Creme</option>
               <option value="hard-chocolate-coating">Hard Chocolate Coating</option>
               </select>
-              <input type="submit" value="Submit">
+              <br>
+              <input class="submit" type="submit" value="Submit">
             </form>
           </div>
         </section>
         <section class="order-now" id="order-now">
-          Sweets! Treats! Goodies! & More!
           <h2>ORDER NOW FOR DELIVERY IN MINUTES</h2>
             <p>By now I'm sure we've <strong>WOWED YOU</strong> with all of our
           sweets, treats, & goodies. Finally decided what you want and saved
           what you want to try next in your
           <strong>Must Try List.</strong> Order now and let us deliver to you,
-          so you can enjoy the good things.
-            </p>
+          so you can enjoy the good things.</p>
           <img class="order-now" src="./assets/ordernow.png" alt="order below" />
           <button class="button">Order Something Sweet</button>
         </section>
         <section class="reviews" id="reviews">
-          <h2>
-            <p>
-              Sweets! Treats! Goodies! & More
-            </p>
-          </h2>
-          <blockquote>
-            <h3>Dont Just take our word for it, read our reviews.</h3>
+          <h2>Dont Just take our word for it, read our reviews.</h2>
+          <br>
+          <blockquote class="speech-bubble">
             <br>
             <p>When I want a sweet treat but I dont want to leave my bed this is my
               go to. I get my ice cream and lay in bed with a good movie. I couldnt
-              ask for more. - <em>Jamie L</em>
+              ask for more. - <em>Unique S</em>
             </p>
           </blockquote>
           <br>
-          <blockquote>
-            <p>They are here for the ice cream lovers, they have a wide selection to
-              satisfy even the pickiest of icecream lovers. You never know what new
-              flavor you will discover and fall head over heels for! - <em>Unique R</em>
+          <blockquote class="speech-bubble">
+            <p> When I have all 5 of my grandkids during summer we order from here, 
+              they really have something for all of them. I love their fresh fruit 
+              handmade popcicles! When they have a sell I always buy in bulk. - <em>Kathleen R</em>
             </p>
           </blockquote>
-          <button class="button">More Reviews</button>
+          <br>
+          <blockquote class="speech-bubble">
+            <p>They are life savers!!! Our dog got into my daughters rainbow ice cream 
+              for her rainbow themed birthday party, I called them and in less then 2 hours 
+              my daughter had a new cake for her party. Tantrum averted thank you 
+              For The Love Of Ice Cream you saved the party!!! - <em>Thomas W</em>
+            </p>
+          </blockquote>
+          <button class="more-reviews">More Reviews</button>
         </section>
-      </section>
       </main>
-      <footer class="page-footer">
+    <footer class="page-footer">
       <span>
         <img class="logo" src="./assets/icecreamTruckLogo.png" alt="Ice Cream Truck Logo" />
         <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3510.0738157822543!2d-81.48212288511255!3d28.38683838251533!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88e77e2d9afd3d77%3A0xc57ea53b1e126359!2sInternational%20Dr%2C%20Florida!5e0!3m2!1sen!2sus!4v1645572726764!5m2!1sen!2sus" width="300" height="200" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
       </span>
       <nav class="page-header-menu-container">
         <ul class="Social">
-          <i class="Social">
-          <li class="instagram">
-            <i class="instagram"></i>
-            <img
-            class="icon"
-            src="./assets/instagram-brands.svg"
-            alt="instagram"
-            />
-          </li>
-          <li class="Facebook">
-            <i class="Facebook"></i>
-            <img
-            class="icon"
-            src="./assets/facebook-square-brands.svg"
+            <i class="Social"></i>
+            <li class="instagram">
+              <i class="instagram"></i>
+                <img
+                  class="icon"
+                  src="./assets/instagram-brands.svg"
+                  alt="instagram"
+                />
+            </li>
+            <li class="Facebook">
+              <i class="Facebook"></i>
+                <img
+                  class="icon"
+                  src="./assets/facebook-square-brands.svg"
                   alt="facebook"
                 />
             </li>
@@ -247,8 +248,7 @@
                   alt="envelope"
                 />
             </li>
-            </li>
-          </ul>
+        </ul>
     </nav>
     <p class="footer-text">&copy; For The Love Of Ice Cream 2022
     25 International Dr, Orlando, Fl 32700</p>

@@ -5,6 +5,7 @@ body{
 *{
   margin: 1px;
   padding: 0px;
+  font-weight: 500;
 }
 
 
@@ -15,6 +16,7 @@ body{
   margin-top: 50px;
   margin-bottom: 25px;
   border-bottom: 3px solid rgb(255, 255, 255);
+
 
 }
 .logo{
@@ -134,7 +136,6 @@ color: white;
 
 
 .mailing-list{
-height: 300px;
 margin: 20px;
 border-color: rgb(19, 84, 154);
 border-bottom-width: 500px;
@@ -142,20 +143,16 @@ color: white;
 
 }
 
-.mailing-list > img{
-  display: flex;
-  justify-content: center;
-  height: 240px;
-  margin-bottom: 50px;
-}
 
 
 .mailing-list-container{
   border: 3px solid rgb(255, 3, 188);
   margin: 20px;
+  color: white;
 }
 
 input {
+  display: inline;
   width: 30%;
   padding: 8px 15px;
   margin: 10px 0;
@@ -168,14 +165,24 @@ input {
 }
 
 select {
+  justify-content:;
   width: 30%;
   padding: 10px 15px;
+  margin-top: 1%;
   border: 3px solid rgb(255, 3, 188);
   border-radius: 4px;
   background-color:  rgb(104, 4, 150);
   color: white;
   font-weight: bolder;
 }
+
+
+.submit{
+display: flex;
+justify-content: center;
+margin-left: 100px;
+}
+
 
 .order-now{
   color: white;
@@ -187,12 +194,65 @@ select {
   color: white;
   box-sizing: border-box;
   margin: 30px;
+  border-bottom: 3px solid;
+  font-size: 20px;
+}
+
+
+.more-reviews{
+  background: none;
+  font-size: 25px;
+  color: rgb(255, 255, 255);
+  margin: 20px;
+  justify-content: right;
+  display: right;
+}
+
+
+.speech-bubble{
+  position: relative;
+  margin: 1px auto;
+  padding: 30px;
+  width: 700px; height: 100px;
+  border-radius: 25px;
+  transform: rotate(-10deg) rotateY(20deg);
+  background: rgb(160, 19, 122);
+  font: 16px;
+  text-align: center;
+  }
+
+
+
+  .speech-bubble:before, .speech-bubble:after {
+    position: absolute;
+    z-index: -1;
+    content: '';
+  }
+  .speech-bubble:after {
+    top: 0; right: 0; bottom: 0; left: 0;
+    border-radius: inherit;
+    transform: rotate(2deg) translate(.35em, -.15em) scale(1.02);
+    background:rgb(19, 84, 154);
+  }
+  .speech-bubble:before {
+    border: solid 0 transparent;
+    border-right: solid 3.5em #000000;
+    border-bottom: solid .25em #ffffff;
+    bottom: .25em; left: 1.25em;
+    width: 0; height: 1em;
+    transform: rotate(45deg) skewX(75deg);
+  }
+
+.footer-text{
+display: block;
+justify-content: center;
 }
   
+
 /* Footer */
 
 .page-footer{
-  margin: 42px 349px 12px;
+  margin: 42px 335px 12px;
 }
 
 .footer-text{
