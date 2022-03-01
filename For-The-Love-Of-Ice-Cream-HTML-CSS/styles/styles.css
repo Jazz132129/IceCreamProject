@@ -267,6 +267,7 @@ justify-content: center;
 
 
 html {
+  margin: 0 75px 0 75px;
   background-image: linear-gradient(
     rgb(160, 19, 122),
     rgb(104, 4, 150),
